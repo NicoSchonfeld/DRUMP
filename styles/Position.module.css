@@ -1,0 +1,53 @@
+/* ======================
+        POSITION
+======================*/
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.sticky-bottom {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.static-top {
+  position: static;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.static-bottom {
+  position: static;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}

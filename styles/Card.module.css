@@ -1,0 +1,31 @@
+/* ======================
+              CARD
+      ======================*/
+
+.card {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: var(--white);
+  box-shadow: 1px 1px 30px #00000030;
+}
+
+.card-40 {
+  border-radius: 5px;
+  padding: 40px;
+  background-color: var(--white);
+  box-shadow: 1px 1px 30px #00000030;
+}
+
+.card-dark {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: var(--dark);
+  box-shadow: 1px 1px 30px #00000030;
+}
+
+.card-dark-40 {
+  border-radius: 5px;
+  padding: 40px;
+  background-color: var(--dark);
+  box-shadow: 1px 1px 30px #00000030;
+}

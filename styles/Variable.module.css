@@ -1,0 +1,55 @@
+:root {
+  /* ======================
+                  FONT
+        ======================*/
+
+  --font-1: "Roboto", sans-serif;
+  --font-2: "Prompt", sans-serif;
+  --font-3: Poppins, sans-serif;
+
+  /* ======================
+                  COLOR
+        ======================*/
+
+  /* black */
+  --black: #000;
+  --black50: #00000050;
+  --black25: #00000025;
+
+  /* white */
+  --white: #fff;
+  --whiteOpacity: #ffffff80;
+  --whiteHover: rgb(233, 233, 233);
+
+  /* grey */
+  --grey: #b1b1b1;
+  --greyOpacity: #b1b1b10;
+
+  /* dark */
+  --dark: #222831;
+  --darkOpacity: #22283180;
+
+  /* orange */
+  --orange: #f96d00;
+  --orange50: #f96d0050;
+  --orange25: #f96d0025;
+  --orangeHover: #ce5d07;
+
+  /* blue */
+  --primary: #1983ff;
+  --primary50: #1983ff50;
+  --primary25: #1983ff25;
+  --primaryHover: rgb(46, 62, 109);
+
+  /* pink */
+  --pink: #ed5b5b;
+  --pink50: #ed5b5b50;
+  --pink25: #ed5b5b25;
+  --pinkHover: #d13e3e;
+
+  --gradient: linear-gradient(
+    rgba(249, 109, 0, 1),
+    rgba(149, 168, 235, 1),
+    rgba(237, 91, 91, 1)
+  );
+}

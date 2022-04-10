@@ -1,0 +1,304 @@
+/* ======================
+              GRID
+      ======================*/
+
+.grid {
+  display: grid;
+  margin-bottom: auto;
+}
+
+.col-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.col-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.col-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.col-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.col-8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.col-9 {
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.col-10 {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.col-11 {
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.col-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* ======================
+                  GRID-COLUMN
+            ======================*/
+
+.gc-1 {
+  grid-column: span 1 / span 1;
+}
+
+.gc-2 {
+  grid-column: span 2 / span 2;
+}
+
+.gc-3 {
+  grid-column: span 3 / span 3;
+}
+
+.gc-4 {
+  grid-column: span 4 / span 4;
+}
+
+.gc-5 {
+  grid-column: span 5 / span 5;
+}
+
+.gc-6 {
+  grid-column: span 6 / span 6;
+}
+
+.gc-7 {
+  grid-column: span 7 / span 7;
+}
+
+.gc-8 {
+  grid-column: span 8 / span 8;
+}
+
+.gc-9 {
+  grid-column: span 9 / span 9;
+}
+
+.gc-10 {
+  grid-column: span 10 / span 10;
+}
+
+.gc-11 {
+  grid-column: span 11 / span 11;
+}
+
+.gc-12 {
+  grid-column: span 12 / span 12;
+}
+
+@media screen and (max-width: 992px) {
+  .col-md-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .col-md-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .col-md-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .col-md-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .col-md-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .col-md-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .col-md-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .col-md-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .col-md-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .col-md-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .col-md-11 {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .col-md-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .gc-md-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .gc-md-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .gc-md-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .gc-md-4 {
+    grid-column: span 4 / span 4;
+  }
+
+  .gc-md-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .gc-md-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .gc-md-7 {
+    grid-column: span 7 / span 7;
+  }
+
+  .gc-md-8 {
+    grid-column: span 8 / span 8;
+  }
+
+  .gc-md-9 {
+    grid-column: span 9 / span 9;
+  }
+
+  .gc-md-10 {
+    grid-column: span 10 / span 10;
+  }
+
+  .gc-md-11 {
+    grid-column: span 11 / span 11;
+  }
+
+  .gc-md-12 {
+    grid-column: span 12 / span 12;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .col-sm-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .col-sm-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .col-sm-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .col-sm-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .col-sm-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .col-sm-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .col-sm-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .col-sm-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .col-sm-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .col-sm-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .col-sm-11 {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+
+  .col-sm-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .gc-sm-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .gc-sm-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .gc-sm-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .gc-sm-4 {
+    grid-column: span 4 / span 4;
+  }
+
+  .gc-sm-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .gc-sm-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .gc-sm-7 {
+    grid-column: span 7 / span 7;
+  }
+
+  .gc-sm-8 {
+    grid-column: span 8 / span 8;
+  }
+
+  .gc-sm-9 {
+    grid-column: span 9 / span 9;
+  }
+
+  .gc-sm-10 {
+    grid-column: span 10 / span 10;
+  }
+
+  .gc-sm-11 {
+    grid-column: span 11 / span 11;
+  }
+
+  .gc-sm-12 {
+    grid-column: span 12 / span 12;
+  }
+}

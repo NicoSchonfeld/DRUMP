@@ -1,0 +1,168 @@
+/* ======================
+              BUTTON
+      ======================*/
+
+.btn {
+  color: var(--black);
+  background-color: var(--white);
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  border: 1px solid var(--white);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-primary {
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--primaryHover);
+  border: 1px solid var(--primaryHover);
+}
+
+.btn-orange {
+  color: var(--white);
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-orange:hover {
+  background-color: var(--orangeHover);
+  border: 1px solid var(--orangeHover);
+}
+
+.btn-dark {
+  color: var(--white);
+  background-color: var(--dark);
+  border: 1px solid var(--dark);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-dark:hover {
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-black {
+  color: var(--white);
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-black:hover {
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-white {
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-pink {
+  color: var(--white);
+  background-color: var(--pink);
+  border: 1px solid var(--pink);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-black:hover {
+  color: var(--pink);
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+/* ======================
+                BORDER-BUTTON
+            ======================*/
+
+.btn-border-white {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-border-white:hover {
+  border: 1px solid var(--white);
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.btn-border-dark {
+  border: 1px solid var(--dark);
+  background-color: transparent;
+  color: var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-border-dark:hover {
+  border: 1px solid var(--dark);
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.btn-border-black {
+  border: 1px solid var(--black);
+  background-color: transparent;
+  color: var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-border-black:hover {
+  border: 1px solid var(--black);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.btn-border-primary {
+  border: 1px solid var(--primary);
+  background-color: transparent;
+  color: var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-border-primary:hover {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn-border-orange {
+  border: 1px solid var(--orange);
+  background-color: transparent;
+  color: var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-border-orange:hover {
+  border: 1px solid var(--orange);
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.btn-border-pink {
+  border: 1px solid var(--pink);
+  background-color: transparent;
+  color: var(--white);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-border-pink:hover {
+  border: 1px solid var(--pink);
+  background-color: var(--pink);
+  color: var(--white);
+}

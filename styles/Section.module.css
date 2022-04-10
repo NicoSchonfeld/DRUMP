@@ -1,0 +1,13 @@
+/* ======================
+              SECTION
+      ======================*/
+
+.section {
+  width: 100%;
+  height: 100vh;
+}
+
+.section-auto {
+  width: 100%;
+  height: auto;
+}

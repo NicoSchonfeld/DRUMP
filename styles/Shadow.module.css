@@ -1,0 +1,35 @@
+/* ======================
+            BOX-SHADOW
+      ======================*/
+
+.shadow-primary {
+  box-shadow: 1px 5px 25px var(--primary25);
+}
+
+.shadow-primary-50 {
+  box-shadow: 1px 5px 25px var(--primary50);
+}
+
+.shadow-black {
+  box-shadow: 1px 5px 25px var(--black25);
+}
+
+.shadow-black-50 {
+  box-shadow: 1px 5px 25px var(--black50);
+}
+
+.shadow-orange {
+  box-shadow: 1px 5px 25px var(--orange25);
+}
+
+.shadow-orange-50 {
+  box-shadow: 1px 5px 25px var(--orange50);
+}
+
+.shadow-pink {
+  box-shadow: 1px 5px 25px var(--pink25);
+}
+
+.shadow-pink-50 {
+  box-shadow: 1px 5px 25px var(--pink50);
+}

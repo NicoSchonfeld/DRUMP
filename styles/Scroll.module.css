@@ -1,0 +1,13 @@
+/* ======================
+        EDIT TO SCROLL
+======================*/
+
+::-webkit-scrollbar {
+  background-color: #000;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #fff;
+}

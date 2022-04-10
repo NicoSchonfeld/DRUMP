@@ -1,0 +1,27 @@
+/* ==================
+        OVERFLOW
+=====================*/
+
+.hidden {
+  overflow: hidden;
+}
+
+.overflow-none {
+  overflow: none;
+}
+
+.overflowX {
+  overflow-x: scroll;
+}
+
+.overflowX-none {
+  overflow-x: none;
+}
+
+.overflowY {
+  overflow-y: scroll;
+}
+
+.overflowY-none {
+  overflow-y: none;
+}
