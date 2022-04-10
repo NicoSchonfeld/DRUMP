@@ -1,0 +1,31 @@
+/* ======================
+        DISPLAY
+======================*/
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+@media screen and (max-width: 992px) {
+  .d-md-block {
+    display: block;
+  }
+
+  .d-md-inline-block {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .d-sm-block {
+    display: block;
+  }
+
+  .d-sm-inline-block {
+    display: inline-block;
+  }
+}
