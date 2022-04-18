@@ -2,6 +2,10 @@
                 GAP
       ======================*/
 
+.gap-5 {
+  gap: 5px;
+}
+
 .gap-10 {
   gap: 10px;
 }
@@ -51,6 +55,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .gap-md-5 {
+    gap: 5px;
+  }
+
   .gap-md-10 {
     gap: 10px;
   }
@@ -101,6 +109,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  .gap-sm-5 {
+    gap: 5px;
+  }
+
   .gap-sm-10 {
     gap: 10px;
   }

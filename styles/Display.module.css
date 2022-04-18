@@ -10,6 +10,10 @@
   display: inline-block;
 }
 
+.d-none {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .d-md-block {
     display: block;
@@ -17,6 +21,10 @@
 
   .d-md-inline-block {
     display: inline-block;
+  }
+
+  .d-md-none {
+    display: none;
   }
 }
 
@@ -27,5 +35,9 @@
 
   .d-sm-inline-block {
     display: inline-block;
+  }
+
+  .d-sm-none {
+    display: none;
   }
 }

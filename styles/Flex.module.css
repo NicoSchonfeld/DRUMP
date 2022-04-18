@@ -1,6 +1,6 @@
 /* ======================
-              FLEX
-      ======================*/
+          FLEX
+======================*/
 
 .d-flex {
   display: flex;
@@ -31,8 +31,8 @@
 }
 
 /* ======================
-                  FLEX_COLUMN
-            ======================*/
+        FLEX_COLUMN
+======================*/
 
 .f-column {
   flex-direction: column;
@@ -63,8 +63,8 @@
 }
 
 /* ======================
-                  ALIGN_ITEMS
-            ======================*/
+      ALIGN_ITEMS
+======================*/
 
 .align-center {
   align-items: center;
@@ -131,8 +131,8 @@
 }
 
 /* ======================
-                JUSTIFY-CONTENT
-            ======================*/
+      JUSTIFY-CONTENT
+======================*/
 
 .justify-center {
   justify-content: center;

@@ -96,16 +96,16 @@
 }
 
 /* ======================
-                  FaBars - ICON 
-            ======================*/
+      FaBars - ICON 
+======================*/
 
 .faBars {
   display: none;
 }
 
 /* ======================
-                NAVBAR-RESPONSIVE
-            ======================*/
+      NAVBAR-RESPONSIVE
+======================*/
 
 @media screen and (max-width: 992px) {
   .nav-dark {
