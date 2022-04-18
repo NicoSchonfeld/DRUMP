@@ -1,6 +1,6 @@
 /* ======================
-              SECTION
-      ======================*/
+        SECTION
+======================*/
 
 .section {
   width: 100%;
@@ -10,4 +10,28 @@
 .section-auto {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .section-md {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .section-md-auto {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-sm {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .section-sm-auto {
+    width: 100%;
+    height: auto;
+  }
 }

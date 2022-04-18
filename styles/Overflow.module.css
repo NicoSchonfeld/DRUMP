@@ -25,3 +25,55 @@
 .overflowY-none {
   overflow-y: none;
 }
+
+@media screen and (max-width: 992px) {
+  .hidden-md {
+    overflow: hidden;
+  }
+
+  .overflow-none-md {
+    overflow: none;
+  }
+
+  .overflowX-md {
+    overflow-x: scroll;
+  }
+
+  .overflowX-none-md {
+    overflow-x: none;
+  }
+
+  .overflowY-md {
+    overflow-y: scroll;
+  }
+
+  .overflowY-none-md {
+    overflow-y: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hidden-sm {
+    overflow: hidden;
+  }
+
+  .overflow-none-sm {
+    overflow: none;
+  }
+
+  .overflowX-sm {
+    overflow-x: scroll;
+  }
+
+  .overflowX-none-sm {
+    overflow-x: none;
+  }
+
+  .overflowY-sm {
+    overflow-y: scroll;
+  }
+
+  .overflowY-none-sm {
+    overflow-y: none;
+  }
+}
