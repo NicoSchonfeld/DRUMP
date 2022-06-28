@@ -7,4 +7,4 @@
 
 - Importar en un archivo ".css" drump de node_modules.
 
-- <h3>Ejemplo: <span color="red">import: url(../node_modules/drump/styles/globals.css);</span></h3>
+- Ejemplo: import: url(../node_modules/drump/styles/globals.css);
