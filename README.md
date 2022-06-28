@@ -7,4 +7,4 @@
 
 - Importar en un archivo ".css" drump de node_modules.
 
-[import: url(../node_modules/drump/styles/globals.css;](import: url(../node_modules/drump/styles/globals.css;)
+- import: url(../node_modules/drump/styles/globals.css);
