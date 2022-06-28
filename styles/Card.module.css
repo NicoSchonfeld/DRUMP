@@ -4,12 +4,18 @@
 
 .card {
   border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 1px 1px 30px #00000030;
+}
+
+.card-p20 {
+  border-radius: 5px;
   padding: 20px;
   background-color: var(--white);
   box-shadow: 1px 1px 30px #00000030;
 }
 
-.card-40 {
+.card-p40 {
   border-radius: 5px;
   padding: 40px;
   background-color: var(--white);
@@ -18,12 +24,18 @@
 
 .card-dark {
   border-radius: 5px;
+  background-color: var(--dark);
+  box-shadow: 1px 1px 30px #00000030;
+}
+
+.card-dark-p20 {
+  border-radius: 5px;
   padding: 20px;
   background-color: var(--dark);
   box-shadow: 1px 1px 30px #00000030;
 }
 
-.card-dark-40 {
+.card-dark-p40 {
   border-radius: 5px;
   padding: 40px;
   background-color: var(--dark);

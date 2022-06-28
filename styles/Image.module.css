@@ -1,5 +1,11 @@
-.object-fit {
+.object-fit-cover {
   width: contain;
   height: auto;
   object-fit: cover;
+}
+
+.object-fit-contain {
+  width: contain;
+  height: auto;
+  object-fit: contain;
 }

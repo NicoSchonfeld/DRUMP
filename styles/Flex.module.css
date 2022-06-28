@@ -10,6 +10,10 @@
   flex-wrap: wrap;
 }
 
+.d-flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 @media screen and (max-width: 992px) {
   .d-flex-md {
     display: flex;
@@ -17,6 +21,10 @@
 
   .d-flex-wrap-md {
     flex-wrap: wrap;
+  }
+
+  .d-flex-nowrap-md {
+    flex-wrap: nowrap;
   }
 }
 
@@ -27,6 +35,10 @@
 
   .d-flex-wrap-sm {
     flex-wrap: wrap;
+  }
+
+  .d-flex-nowrap-sm {
+    flex-wrap: nowrap;
   }
 }
 

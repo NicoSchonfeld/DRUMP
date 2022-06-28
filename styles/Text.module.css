@@ -6,7 +6,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 
 /* ======================
          FONT_FAMILY
@@ -123,37 +123,37 @@
   text-align: justify;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .text-md-center {
     text-align: center;
   }
-  
+
   .text-md-end {
     text-align: end;
   }
-  
+
   .text-md-start {
     text-align: start;
   }
-  
+
   .text-md-justify {
     text-align: justify;
   }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
   .text-sm-center {
     text-align: center;
   }
-  
+
   .text-sm-end {
     text-align: end;
   }
-  
+
   .text-sm-start {
     text-align: start;
   }
-  
+
   .text-sm-justify {
     text-align: justify;
   }
@@ -339,6 +339,10 @@
   font-weight: 100;
 }
 
+.font-w200 {
+  font-weight: 200;
+}
+
 .font-w300 {
   font-weight: 300;
 }
@@ -351,8 +355,16 @@
   font-weight: 500;
 }
 
+.font-w600 {
+  font-weight: 600;
+}
+
 .font-w700 {
   font-weight: 700;
+}
+
+.font-w800 {
+  font-weight: 800;
 }
 
 .font-w900 {

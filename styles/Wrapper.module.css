@@ -9,7 +9,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .wrapper-md {
@@ -19,7 +19,7 @@
   max-width: 992px;
   margin: 0 auto;
   padding: 0 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .wrapper-sm {
@@ -29,5 +29,5 @@
   max-width: 576px;
   margin: 0 auto;
   padding: 0 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }

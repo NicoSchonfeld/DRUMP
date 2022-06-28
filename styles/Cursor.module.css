@@ -1,3 +1,7 @@
 .cursor {
   cursor: pointer;
 }
+
+.cursor-none {
+  cursor: none;
+}
