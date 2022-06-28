@@ -5,6 +5,8 @@
 
 - $ [npm install drump](https://www.npmjs.com/package/drump)
 
-- Importar en un archivo ".css" drump de node_modules.
+- Importar DRUMP en el archivo ".css" principal desde node_modules.
+
+- El archivo globals.css contiene todas las clases ya establecidas para que las apliques en tus proyectos.
 
 - Ejemplo: import: url(../node_modules/drump/styles/globals.css);
