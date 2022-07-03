@@ -79,8 +79,8 @@
   background-color: var(--pink50);
 }
 /* ======================
-                  MENU - UL
-            ======================*/
+         MENU - UL
+======================*/
 
 .menu {
   display: flex;
@@ -96,7 +96,7 @@
       FaBars - ICON 
 ======================*/
 
-.faBars {
+.iconMenu {
   display: none;
 }
 
@@ -118,7 +118,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms ease-in-out;
 
     z-index: 2;
   }
@@ -136,7 +135,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms ease-in-out;
 
     z-index: 2;
   }
@@ -154,7 +152,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms ease-in-out;
 
     z-index: 2;
   }
@@ -172,7 +169,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms ease-in-out;
 
     z-index: 2;
   }
@@ -190,7 +186,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms ease-in-out;
 
     z-index: 2;
   }
@@ -208,7 +203,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms ease-in-out;
 
     z-index: 2;
   }
@@ -226,7 +220,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms ease-in-out;
 
     z-index: 2;
   }
@@ -239,11 +232,12 @@
   }
 
   .menuItem {
-    margin: 20px 0;
-    margin-right: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
   }
 
-  .faBars {
+  .iconMenu {
     position: absolute;
     top: 50;
     right: 20px;
@@ -253,7 +247,7 @@
     display: block;
   }
 
-  .bgBlack {
+  .bgBlackMenu {
     position: fixed;
     top: 0;
     left: 0;

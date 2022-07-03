@@ -12,12 +12,12 @@
         ======================*/
 
   /* black */
-  --black: #000;
+  --black: #000000;
   --black50: #00000050;
   --black25: #00000025;
 
   /* white */
-  --white: #fff;
+  --white: #ffffff;
   --whiteOpacity: #ffffff80;
   --whiteHover: rgb(233, 233, 233);
 
