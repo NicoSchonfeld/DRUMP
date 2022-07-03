@@ -78,6 +78,13 @@
   transition: all 300ms ease-in-out;
 }
 
+.btn-pink:hover {
+  color: var(--white);
+  background-color: var(--pinkHover);
+  border: 1px solid var(--pinkHover);
+  transition: all 300ms ease-in-out;
+}
+
 .btn-black:hover {
   color: var(--pink);
   background-color: var(--white);

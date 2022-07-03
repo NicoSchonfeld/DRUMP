@@ -99,58 +99,54 @@
   background-color: var(--orange);
 }
 
+.container-header-orange-opacity {
+  background-color: var(--orange50);
+}
+
 .container-header-black {
   background-color: var(--black);
+}
+
+.container-header-black-opacity {
+  background-color: var(--black50);
 }
 
 .container-header-dark {
   background-color: var(--dark);
 }
 
+.container-header-dark-opacity {
+  background-color: var(--darkOpacity);
+}
+
 .container-header-white {
   background-color: var(--white);
+}
+
+.container-header-white-opacity {
+  background-color: var(--whiteOpacity);
 }
 
 .container-header-grey {
   background-color: var(--grey);
 }
 
+.container-header-grey-opacity {
+  background-color: var(--greyOpacity);
+}
+
 .container-header-primary {
   background-color: var(--primary);
+}
+
+.container-header-primary-opacity {
+  background-color: var(--primary50);
 }
 
 .container-header-pink {
   background-color: var(--pink);
 }
 
-/* =============================================================
-                      BACKGROUND
-=========================================================== */
-
-.header-orange {
-  background-color: var(--orange);
-}
-
-.header-black {
-  background-color: var(--black);
-}
-
-.header-dark {
-  background-color: var(--dark);
-}
-
-.header-white {
-  background-color: var(--white);
-}
-
-.header-grey {
-  background-color: var(--grey);
-}
-
-.header-primary {
-  background-color: var(--primary);
-}
-
-.header-pink {
-  background-color: var(--pink);
+.container-header-pink-opacity {
+  background-color: var(--pink50);
 }
