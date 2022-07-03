@@ -1,260 +1,157 @@
-/* ======================
-              NAVBAR
-      ======================*/
-
-.navbar {
+.container-header {
   width: 100%;
-  height: 50px;
-
-  z-index: 1;
+  height: auto;
 }
 
-.navbar-70 {
+.header {
   width: 100%;
-  height: 70px;
-}
+  height: auto;
+  padding: 1em;
 
-.navbar-80 {
-  width: 100%;
-  height: 80px;
-}
+  max-width: 1200px;
+  margin: auto;
 
-/* ======================
-                NAVBAR-BACKGROUND
-            ======================*/
-
-.navbar-black {
-  background-color: var(--black);
-}
-
-.navbar-black-opacity {
-  background-color: var(--black50);
-}
-
-.navbar-primary {
-  background-color: var(--primary);
-}
-
-.navbar-primary-opacity {
-  background-color: var(--primary50);
-}
-
-.navbar-dark {
-  background-color: var(--dark);
-}
-
-.navbar-dark-opacity {
-  background-color: var(--darkOpacity);
-}
-
-.navbar-white {
-  background-color: var(--white);
-}
-
-.navbar-white-opacity {
-  background-color: var(--whiteOpacity);
-}
-
-.navbar-orange {
-  background-color: var(--orange);
-}
-
-.navbar-orange-opacity {
-  background-color: var(--orange50);
-}
-
-.navbar-grey {
-  background-color: var(--grey);
-}
-
-.navbar-grey-opacity {
-  background-color: var(--greyOpacity);
-}
-
-.navbar-pink {
-  background-color: var(--pink);
-}
-
-.navbar-pink-opacity {
-  background-color: var(--pink50);
-}
-/* ======================
-         MENU - UL
-======================*/
-
-.menu {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
-.menuItem {
+.header-md {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+
+  max-width: 992px;
+  margin: auto;
+
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
-/* ======================
-      FaBars - ICON 
-======================*/
+.header-sm {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+
+  max-width: 576px;
+  margin: auto;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .iconMenu {
   display: none;
+  cursor: pointer;
 }
 
-/* ======================
-      NAVBAR-RESPONSIVE
-======================*/
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  gap: 25px;
+}
+
+.menuItems {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 992px) {
-  .nav-dark {
-    position: fixed;
-    top: 0;
-    right: -250%;
-
-    width: 50%;
-    height: 100vh;
-
-    background-color: var(--dark);
-
+  .iconMenu {
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 2;
   }
 
-  .nav-black {
-    position: fixed;
-    top: 0;
-    right: -250%;
-
-    width: 50%;
-    height: 100vh;
-
-    background-color: var(--black);
+  .nav {
+    width: 100%;
+    padding-top: 20px;
 
     display: flex;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
 
-    z-index: 2;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 300ms ease;
   }
 
-  .nav-grey {
-    position: fixed;
-    top: 0;
-    right: -250%;
-
-    width: 50%;
-    height: 100vh;
-
-    background-color: var(--grey);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 2;
-  }
-
-  .nav-orange {
-    position: fixed;
-    top: 0;
-    right: -250%;
-
-    width: 50%;
-    height: 100vh;
-
-    background-color: var(--orange);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 2;
-  }
-
-  .nav-pink {
-    position: fixed;
-    top: 0;
-    right: -250%;
-
-    width: 50%;
-    height: 100vh;
-
-    background-color: var(--pink);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 2;
-  }
-
-  .nav-primary {
-    position: fixed;
-    top: 0;
-    right: -250%;
-
-    width: 50%;
-    height: 100vh;
-
-    background-color: var(--primary);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 2;
-  }
-
-  .nav-white {
-    position: fixed;
-    top: 0;
-    right: -250%;
-
-    width: 50%;
-    height: 100vh;
-
-    background-color: var(--white);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 2;
+  .nav.isActive {
+    height: 50vh;
+    opacity: 1;
   }
 
   .menu {
-    width: 100%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
+}
 
-  .menuItem {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
+/* =============================================================
+                      BACKGROUND-container
+=========================================================== */
 
-  .iconMenu {
-    position: absolute;
-    top: 50;
-    right: 20px;
-    color: var(--white);
-    font-size: 20px;
-    cursor: pointer;
-    display: block;
-  }
+.container-header-orange {
+  background-color: var(--orange);
+}
 
-  .bgBlackMenu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: none;
-    background-color: #00000080;
-    cursor: pointer;
-  }
+.container-header-black {
+  background-color: var(--black);
+}
+
+.container-header-dark {
+  background-color: var(--dark);
+}
+
+.container-header-white {
+  background-color: var(--white);
+}
+
+.container-header-grey {
+  background-color: var(--grey);
+}
+
+.container-header-primary {
+  background-color: var(--primary);
+}
+
+.container-header-pink {
+  background-color: var(--pink);
+}
+
+/* =============================================================
+                      BACKGROUND
+=========================================================== */
+
+.header-orange {
+  background-color: var(--orange);
+}
+
+.header-black {
+  background-color: var(--black);
+}
+
+.header-dark {
+  background-color: var(--dark);
+}
+
+.header-white {
+  background-color: var(--white);
+}
+
+.header-grey {
+  background-color: var(--grey);
+}
+
+.header-primary {
+  background-color: var(--primary);
+}
+
+.header-pink {
+  background-color: var(--pink);
 }
