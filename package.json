@@ -1,6 +1,6 @@
 {
   "name": "drump",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Drump es una herramienta css creada para facilitar el trabajo a la hora de añadir estilos a una web.",
   "main": "./styles/globals.css",
   "scripts": {
